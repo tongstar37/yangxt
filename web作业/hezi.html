@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>practice</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #box{
+        width: 800px;
+        height: 400px;
+        background:ghostwhite;
+        margin: auto;
+        padding: 11px 11px 18px;  
+    }
+    .title{
+            width: 785px;
+            height: 25px;
+            background:rgb(215, 144, 36);
+            padding-left: 10px;
+            border-left: 5px solid black;
+            color:black;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        .ibm{
+                background-color:rgb(215, 144, 36);
+            }
+            .new{
+                color:beige;
+            }
+       
+</style>
+</head>
+<body>
+    <div id="box">
+        <div class="title">
+            自我介绍
+        </div>
+             
+            <div id="container">
+                <div class="imgbox">
+                    <img src="images/4.jpg"width="800px"height="500px">
+                    <lable>
+                        <div>姓名:杨星桐          </div> 
+                        <div> <h3 style="color:azure;">班级：计科207班 </h3>   </div>
+                        <div class="ibm new">QQ号:2022067270</div> <!--类选择器-->
+                        <div class="ibm new">爱好：打网球,看动漫，弹吉他，卡林巴琴</div> <!--类选择器-->
+                        <img src="images/3.jpg"width="300px"height="300px">
+                        
+
+
+                    </lable>
+                </div>
+        </div>
+        <style>
+        #container .imgbox{
+                height: 216px;
+                width: 384px;
+            }
+        #container img {
+                position: absolute;/*设为绝对定位*/
+                
+            }
+        #container lable {
+                width: inherit;
+                text-align: left;
+                font-size: 20px;
+                color: rgb(219, 222, 240);
+                position: absolute;/*设为绝对定位*/
+
+
+            }
+        </style>
+
+
+
+        
+
+</body>
+</html>
